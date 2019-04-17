@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% load staticfiles %}
+  <link href="{%static 'scoring/css/bootstrap.min.css'  %}" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+  <script src="{%static 'scoring/jquery/jquery.min.js' %}"></script>
+  <script src="{%static 'scoring/jquery/popper.min.js' %}"></script>
+  <script src="{%static 'scoring/jquery/bootstrap.min.js' %}"></script>
+  <style>
+  .responsive {
+  width: 20%;
+  max-width: 180px;
+  height: auto;
+}
+</style>
+</head>
+<body>
+<!--Deloitte logo and the describtion of the site-->
+<div class="jumbotron"style="background-color:black">
+  <img alt="Brand" src="/static/scoring/images/logo.jpg" alt="Mountain View"class="responsive" style="width:182;height:39;margin-bottom:-100px;margin-left:-15px;padding-bottom: 10px;" align="left">
+  <h1 style="font-family:verdana;font-size:1vw;color:white;margin-bottom:-100px; text-align:right;">Credit <span style="color:#86bc25;font-weight:bold;">Scoring </span></h1>
+
+</div>
+</div>
+<!-- The form the clients inputs his or her details -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <!-- <h3 style="font-family:verdana,font-size:10px;">Loan application details</h3> -->
+      <h1 style="font-family:verdana;font-size:4vw;color:black;text-align:center;"> Thank you!</h1>
+    </div>
+
+  </div>
+</div>
+<!-- inserting the data from the database for confirmation -->
+
+
+</body>
+</html>
